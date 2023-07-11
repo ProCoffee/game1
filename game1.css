@@ -1,0 +1,108 @@
+body {
+  margin: 0 auto;
+  background-image: url("./img/createUserPhone.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: solid 2px black;
+  border-radius: 8px;
+  background: linear-gradient(#76db8c, #0c4017);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 25px;
+  margin: auto;
+}
+.inp_cont {
+  width: 100%;
+}
+.inp_cont input {
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+.avatar {
+  box-sizing: content-box;
+  width: 200px;
+  height: 200px;
+  border: 3px solid red;
+}
+.charInfo {
+  display: flex;
+  width: 404px;
+  height: 200px;
+  border: 3px solid black;
+}
+.charImage {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  background-size: cover;
+}
+.charStat {
+  box-sizing: border-box;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 2px solid green;
+  flex-direction: column;
+}
+.nameChar {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  width: 200px;
+  height: 50px;
+}
+.race {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  width: 200px;
+  height: 50px;
+}
+.date {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  width: 200px;
+  height: 50px;
+}
+.energy {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  width: 200px;
+  height: 50px;
+}
+.showUserStorage {
+  display: flex;
+}
